@@ -5,4 +5,4 @@ apt update && sudo apt install unzip
 wget https://www.cs.utexas.edu/~bzhou/dl_class/classification_data.zip
 
 # unzip it
-unzip https://www.cs.utexas.edu/~bzhou/dl_class/classification_data.zip
+unzip ./classification_data.zip
