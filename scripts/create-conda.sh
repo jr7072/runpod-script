@@ -12,3 +12,10 @@ conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
 # set up environment
 mkdir conda-envs
 conda create --prefix ./conda-envs/deep-learning python=3.11
+
+# load packages
+# activate the env
+conda activate ./conda-envs/deep-learning
+
+# install packages
+pip install torch torchvision matplotlib>=3.5.0 Pillow>=10.0.0 tensorboard>=2.0.0
